@@ -16,12 +16,20 @@
 
 <body>
   <div class="card">
-    <h2>Kasir Toko Versi 2</h2>
+    <h2>Kasir Toko Versi 3</h2>
     
-    <input type="number" id="hargainput" placeholder="harga barang">
-    
+    <input type="number" id="hargainput" placeholder="Harga barang">
+  
     <button onclick="tambah()">Tambah Barang</button>
+    
+    <input type="number" id="nomor" placeholder="nomor barang">
+    
+       <input type="number" id="hargaedit" placeholder="Harga Barang Edit">
+       
+    <button onclick="edit()">Edit Barang</button>
+    
   <button onclick="hapus()"> Hapus Barang terakhir</button>
+  
     <button onclick="reset()"> reset keranjang</button>
   
     <div id="hasil"></div>

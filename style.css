@@ -60,3 +60,7 @@ button:disabled{
     border-top: 1px solid #ccc;
     font-weight: bold;
 }
+
+.hapus{
+    background:#e74c3c
+}
